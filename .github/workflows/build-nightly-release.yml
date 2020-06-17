@@ -2,7 +2,7 @@ name: "[builder] CI for nightly build releases"
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+ #   - cron: "0 0 * * *"
 
 jobs:
   release:
